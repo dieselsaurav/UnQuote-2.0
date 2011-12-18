@@ -2,6 +2,8 @@ package labs.codingparadox.com;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.TextView;
 
 public class QuotesTab extends Activity {
@@ -10,8 +12,8 @@ public class QuotesTab extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        TextView textview = new TextView(this);
-        textview.setText("This is the Quotes tab");
-        setContentView(textview);
+        View view = LayoutInflater.from(this).inflate(R.layout.quotes, null);
+        
+        setContentView(view);
     }
 }

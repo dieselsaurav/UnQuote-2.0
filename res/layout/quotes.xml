@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quotes_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF"><!-- 93D8EB-->
+        <ScrollView 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent" 
+		    android:id="@+id/ScrollView01">
+		    
+		    <TextView android:id="@+id/displayquote"
+			    style="@style/QuoteStyle"/>
+		    
+		</ScrollView>
+</LinearLayout>
