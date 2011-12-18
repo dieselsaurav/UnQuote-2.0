@@ -1,0 +1,45 @@
+<labs.codingparadox.com.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  Get Quotes Button -->
+    <Button
+        android:id="@+id/btn_get_quotes"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/quotesicon"
+        android:text="@string/GetQuote" />
+ 
+    <!--  Favorites Button -->
+    <Button
+        android:id="@+id/btn_favorites"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/favicon"
+        android:text="@string/Favorites" />
+ 
+    <!--  Settings Button -->
+    <Button
+        android:id="@+id/btn_settings"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/settingsicon"
+        android:text="@string/Settings" />
+ 
+    <!--  Help Button -->
+    <Button
+        android:id="@+id/btn_help"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/helpicon"
+        android:text="@string/Help" />
+ 
+    <!--  Submit A Quote Button -->
+    <Button
+        android:id="@+id/btn_submit_a_quote"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/submitquoteicon"
+        android:text="@string/SubmitQuote" />
+    
+      <Button
+        style="@style/DashboardButton" />
+ 
+</labs.codingparadox.com.DashboardLayout>

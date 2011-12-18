@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBarCompat" >
+ 
+    <TextView android:text="@string/UnQuote"
+            		android:id="@+id/txtUnquote" style="@style/ActionBarAppName"/>
+ 
+</LinearLayout>

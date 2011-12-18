@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="UnQuote">UnQuote</string>
+    <string name="app_name">UnQuote2.0</string>
+    <string name="GetQuote">GetQuote</string>
+    <string name="Favorites">Favorites</string>
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+    <string name="SubmitQuote">Submit A Quote</string>
+    <string name="Quotes">Quotes</string>
+    <color name="SelectedTabColor">#00AEEF</color>
+    <color name="UnSelectedTabColor">#56C9EE</color>
+
+</resources>
