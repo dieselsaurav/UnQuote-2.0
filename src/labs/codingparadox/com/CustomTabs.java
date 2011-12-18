@@ -66,6 +66,7 @@ public class CustomTabs extends TabActivity{
 	
 	public void setUIBySelectedTab(TabHost tabHost)
 	{
+		//set color for the selected tab
 		setTabColor(tabHost);
 		
 		ImageButton btn_fav = (ImageButton) findViewById(R.id.btnFav);
