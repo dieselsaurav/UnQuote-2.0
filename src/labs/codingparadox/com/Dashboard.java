@@ -15,6 +15,7 @@ public class Dashboard extends Activity {
         
         Button btn_get_quotes = (Button) findViewById(R.id.btn_get_quotes);
         Button btn_get_favorites = (Button) findViewById(R.id.btn_favorites);
+        Button btn_help = (Button) findViewById(R.id.btn_help);
         
         btn_get_quotes.setOnClickListener(new View.OnClickListener() {
         	 public void onClick(View view) {
@@ -33,5 +34,13 @@ public class Dashboard extends Activity {
                startActivity(i);
            }
        });
+        
+        btn_help.setOnClickListener(new View.OnClickListener() {
+        	public void onClick(View view) {
+        		// Launching News Feed Screen
+        		Intent i = new Intent(getApplicationContext(), Help.class);
+        		startActivity(i);
+        	}
+        });
     }
 }

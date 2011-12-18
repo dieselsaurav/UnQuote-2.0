@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#FFFFFF">
+        <!-- Include Action Bar -->
+ 		<include layout="@layout/dashboardactionbar"/>
+ 		
+        <!--  Write the help content  -->
+        <TableLayout 
+            android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+			android:stretchColumns="0"
+			android:layout_marginTop="3dip">
+               <TextView style="@style/ContentHeaderStyle" android:text="@string/Help"/>
+         
+               <ScrollView android:scrollbars="horizontal" 
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+                   <TextView style="@style/ContentStyle" android:text="@string/HelpContent"/>
+               </ScrollView>
+        </TableLayout>
+</LinearLayout>

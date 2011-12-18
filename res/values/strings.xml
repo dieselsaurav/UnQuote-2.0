@@ -11,5 +11,5 @@
     <string name="Quotes">Quotes</string>
     <color name="SelectedTabColor">#00AEEF</color>
     <color name="UnSelectedTabColor">#56C9EE</color>
-
+    <string name="HelpContent">\nHelp content goes here.\nThis is a new line.\n\nTest</string>
 </resources>
