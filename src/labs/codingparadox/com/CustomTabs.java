@@ -66,7 +66,7 @@ public class CustomTabs extends TabActivity{
         btnFav.setOnClickListener(new OnClickListener() {
 			
 			public void onClick(View v) {
-				String quote = getQuoteFromQuoteTab();
+				//String quote = getQuoteFromQuoteTab();
 					
 				//display alert for now add code later
 				Toast t = Toast.makeText(getApplicationContext(), "Added to favorites !!", Toast.LENGTH_LONG);

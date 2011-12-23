@@ -1,21 +1,16 @@
 package labs.codingparadox.com;
 
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Random;
+
 import android.app.Activity;
-import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
-import android.view.GestureDetector.OnGestureListener;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.view.GestureDetector;
+import android.view.GestureDetector.OnGestureListener;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageButton;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -68,7 +63,7 @@ public class QuotesTab extends Activity implements OnGestureListener {
         /************************************************************************************************/
     }
 
-    private void getQuotes(String type) {
+//    private void getQuotes(String type) {
 		
 //		DBHelper dbhelper = new DBHelper(this);
 //		quotes = new ArrayList<String>();
@@ -86,7 +81,7 @@ public class QuotesTab extends Activity implements OnGestureListener {
 //			display_quote.setText("No Quotes Found");
 //		}
 		
-	}
+//	}
 	
 	public void getQuote() {
 		
